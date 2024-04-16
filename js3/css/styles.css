@@ -1,0 +1,134 @@
+header {
+    text-align: center; /* Center align the content */
+    padding: 20px 0; 
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../fonts/js3.ttf') format('woff2'),
+   
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: 'CustomFont', sans-serif;
+}
+
+#student-info {
+    text-align: center;
+}
+
+
+header img {
+    width: 150px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+h1 {
+    color: #ff8811;
+    text-transform: uppercase;
+    margin: 0; /* Remove margin to make the title flush with the image */
+}
+
+
+
+body {
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff8811;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#top,
+#api-data {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    color: #ccc;
+    margin-right: 10px;
+}
+
+input[type="text"],
+
+button {
+    padding: 12px 24px;
+    background-color: #ff8811;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff8811;
+    color: #1c1c1c;
+}
+
+
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    position: relative; /* Add this line */
+}
+
+select option {
+    background-color: rgba(0, 0, 0, 0.6); /* Add this line */
+    color: #fff; /* Add this line */
+}
+
+/* Style each option based on value */
+.option-pc {
+    color: blue;
+}
+
+.option-xbox {
+    color: green;
+}
+
+.option-playstation {
+    color: red;
+}
